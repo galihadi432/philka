@@ -8,13 +8,14 @@ Pencarian/filter lokasi, detail lokasi, perpindahan lokasi, tab ringkasan/vouche
 
 ## GitHub Pages
 
-1. Unggah repository ini ke GitHub, menggunakan branch `main`.
+1. Source tersedia di repository `galihadi432/philka`, branch `main`.
 2. Buka Settings → Pages → Build and deployment.
-3. Pilih Deploy from a branch, branch `main`, folder `/docs`, lalu Save.
+3. Pilih GitHub Actions sebagai Source. Workflow `.github/workflows/pages.yml` menerbitkan folder `docs`.
 4. Tunggu deployment dan buka URL yang diberikan GitHub Pages.
 
-Semua aset memakai path relatif; navigasi hash mendukung URL project seperti `https://USERNAME.github.io/REPOSITORY/` tanpa aturan rewrite. Belum ada repository tujuan atau deployment yang dibuat oleh prototipe ini.
+Semua aset memakai path relatif; navigasi hash mendukung URL project seperti `https://USERNAME.github.io/REPOSITORY/` tanpa aturan rewrite. Source sudah diunggah. Aktivasi Pages tertahan: paket akun saat ini tidak mendukung Pages untuk repository privat ini. Pemilik dapat memilih repository publik atau paket yang mendukung Pages privat; jangan mengubah visibilitas tanpa keputusan pemilik.
 
 GitHub Pages tidak menjalankan PHP. Aplikasi Mikhmon operasional memerlukan server backend terpisah untuk menjalankan PHP dan mengakses API router. Jangan unggah folder konfigurasi Mikhmon asli atau kredensial ke situs ini.
 
 Dokumentasi: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+
